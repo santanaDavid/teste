@@ -1,6 +1,32 @@
 {
-	"scripts": {
-		"start": "node server.js"
+	"name": "OpenShift-Sample-App",
+	"version": "1.0.0",
+	"description": "OpenShift Sample Application",
+	"keywords": [
+		"OpenShift",
+		"Node.js",
+		"application"
+	],
+	"author": {
+		"name": "David Santana Rodrigues",
+		"email": "davidbhz@gmail.com",
+		"url": "http://www.openshift.com/"
 	},
+	"homepage": "",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/openshift/origin-server"
+	},
+	"engines": {
+		"node": ">= 0.6.0",
+		"npm": ">= 1.0.0"
+	},
+	"dependencies": {
+		"express": "~3.4.4",
+		"mongoose": "^3.8.24"	
+	},
+	"devDependencies": {},
+	"bundledDependencies": [],
+	"private": true,
 	"main": "server.js"
 }
